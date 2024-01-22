@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  color: $text-color;
+  font-size: 16px;
+  line-height: 1.15;
+  background-color: $primary;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.094rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+input {
+  cursor: pointer;
+  padding: 0.4rem 1.6rem 0.4rem 0.4rem;
+  border: none;
+  border-radius: 5px;
+
+  &::placeholder {
+    color: $placeholder-text-color;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

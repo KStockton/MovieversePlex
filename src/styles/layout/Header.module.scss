@@ -1,0 +1,37 @@
+@import "@/styles/utilities/variables.scss";
+@import "@/styles/utilities/mixins.scss";
+
+.header {
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: $primary;
+  z-index: 5;
+
+  nav {
+    @include flexbox(space-between, center);
+
+    a {
+      display: flex;
+    }
+
+    h6 {
+      margin-left: 0.4rem;
+    }
+    div:first-of-type {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+
+  & span {
+    color: $tertiary-color;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

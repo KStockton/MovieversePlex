@@ -1,0 +1,13 @@
+@import "@/styles/utilities/variables.scss";
+@import "@/styles/base/_global.scss";
+@import "@/styles/base/_typography.scss";
+@import "@/styles/layout/Home.module.scss";
+@import "@/styles/layout/Header.module.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: auto;
+  min-height: 100vh;
+}

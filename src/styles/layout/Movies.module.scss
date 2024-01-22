@@ -1,0 +1,15 @@
+@import "@/styles/utilities/variables.scss";
+
+.container {
+  flex: 1;
+
+  ul {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(11.25rem, 9.375rem));
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
