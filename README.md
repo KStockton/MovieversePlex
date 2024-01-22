@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movieverse Plex - README
 
-## Getting Started
+## Description
+**Movieverse Plex** is a dynamic web application developed using React/NextJS, showcasing expertise in HTML, SCSS/SASS, and JavaScript. 
 
-First, run the development server:
+## Includes
+- **Dual-Page Interface**: A main page with movie thumbnails and a detailed movie-specific page.
+- **Interactive Thumbnails**: Clicking a thumbnail navigates to a detailed page showcasing the marvel movie's details.
+- **Real-Time Movie Details**: Each movie's poster, title, description, and rating are dynamically loaded from an API.
+- **URL-Based Navigation**: Easily access movies by modifying the URL, e.g., `http://localhost/movie/details/123`.
+- **Diverse Movie Selection**: Contains a curated list of at least marvel movies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technical Details
+- **Framework**: Built with React/NextJS.
+- **Styling**: Crafted using SCSS/SASS.
+- **HTML**: Implemented using semantic HTML practices.
+- **Responsive Design**: Fully adaptable to both mobile and desktop screens.
+- **Accessibility**: I Tried to keep WCAG guidelines in mind.
+- **Browser Compatibility**: Specifically optimized for Google Chrome.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## API Key
+- **No Need for API Key**: The project includes a free API key embedded within, so there's no need for additional setup.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installation
+```markdown
+1. Clone Repository: git clone this repo
+3. Install Dependencies: npm install```
