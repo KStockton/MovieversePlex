@@ -1,5 +1,8 @@
 # Movieverse Plex - README
 
+## Photos
+![movieverse](https://github.com/KStockton/MovieversePlex/assets/34406483/7484835e-c0f4-4121-b5c9-bc2a94bc97c2)
+
 ## Description
 **Movieverse Plex** is a dynamic web application developed using React/NextJS, showcasing expertise in HTML, SCSS/SASS, and JavaScript. 
 
@@ -17,7 +20,6 @@
 - **Responsive Design**: Fully adaptable to both mobile and desktop screens.
 - **Accessibility**: I Tried to keep WCAG guidelines in mind.
 - **Browser Compatibility**: Specifically optimized for Google Chrome.
-
 
 ## API Key
 - **No Need for API Key**: The project includes a free API key embedded within, so there's no need for additional setup.
